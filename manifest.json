@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+
+  "header": {
+    "name": "Animated Text Display Script",
+    "description": "Created by Sprixvy (Updated 07/08/2024)",
+    "uuid": "94dfdce4-4a5d-4fb5-9537-e4e8e1fd4555",
+    "min_engine_version": [1, 21, 0],
+    "version": [1, 0, 0]
+  },
+
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "7fab9ef2-d2fd-4847-930c-81afd6e11c08",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "entry": "scripts/index.js",
+      "uuid": "5aa5ef50-2381-4a81-aa95-b9a00f429f6c",
+      "version": [1, 0, 0]
+    }
+  ],
+
+  "dependencies": [
+    {
+      "uuid": "4e289d12-c201-49be-a14c-8fc08ce7135c",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.12.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0-beta"
+    }
+  ]
+}
